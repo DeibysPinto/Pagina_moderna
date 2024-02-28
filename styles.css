@@ -1,0 +1,16 @@
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link a {
+    padding: 0 1rem;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: var(--primary-color);
+}
